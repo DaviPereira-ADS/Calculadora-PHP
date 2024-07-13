@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1B5E20;
+    padding: 15px;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #388E3C;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.calculator,
+.rule-of-three {
+    background-color: #2E7D32;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 320px;
+}
+
+.calculator form,
+.rule-of-three form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: right;
+    background-color: #212121;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.buttons button {
+    padding: 20px;
+    background-color: #388E3C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttons button:hover {
+    background-color: #4CAF50;
+}
+
+.rule-of-three {
+    width: 380px;
+}
+
+.rule-of-three .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rule-of-three label {
+    margin-top: 10px;
+}
+
+.rule-of-three input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 45%;
+    background-color: #212121;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.rule-of-three button {
+    padding: 10px 20px;
+    background-color: #388E3C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.rule-of-three button:hover {
+    background-color: #4CAF50;
+}
+
+.database {
+    background-color: #2E7D32;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.history {
+    margin-top: 20px;
+}
+
+.history p {
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.history hr {
+    border: 1px solid #388E3C;
+    margin: 10px 0;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #388E3C;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.2s;
+}
+
+.back-button a:hover {
+    background-color: #4CAF50;
+}
