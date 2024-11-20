@@ -22,7 +22,7 @@ Este é um projeto de calculadora desenvolvido em PHP com integração a um banc
 
 ## Instalação e Uso
 
-1. **Clonar o repositório:**https://github.com/seu-usuario/calculadora-php-mysql.git
+1. **Clonar o repositório:**https://github.com/DaviPereiraL/calculadora-php.git
 
 
 2. **Configurar o banco de dados:**
